@@ -3,7 +3,13 @@ frontend:
   phases:
     build:
       commands:
-        - hugo server
+        - rm -rf /usr/bin/hugo
+        - mkdir hugo
+        - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO_NEW}/hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz
+        - tar -xvf hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz -C ./hugo
+        - mv ./hugo /usr/bin/hugo
+        - rm -rf hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz
+        - /usr/bin/hugo/hugo
   artifacts:
     baseDirectory: public
     files:
