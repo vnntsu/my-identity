@@ -3,6 +3,7 @@ frontend:
   phases:
     build:
       commands:
+        - export VERSION_HUGO_NEW=0.59.0
         - rm -rf /usr/bin/hugo
         - mkdir hugo
         - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO_NEW}/hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz
