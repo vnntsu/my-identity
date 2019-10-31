@@ -1,6 +1,6 @@
 languageCode = "en-us"
 theme = "awesome-identity"
-baseURL = "https://sunguyen.dev"
+## baseURL = "https://sunguyen.dev"
 title = "Su Nguyen's Identity"
 
 
