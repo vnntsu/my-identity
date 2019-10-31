@@ -1,6 +1,4 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "awesome-identity"
 baseURL = "https://sunguyen.dev"
 title = "Su Nguyen's Identity"
@@ -9,18 +7,34 @@ title = "Su Nguyen's Identity"
 ## Profile Configurations
 [params.profile]
   portrait = "/images/portrait-default.png"
-  firstname = "John"
-  lastname = "Smith"
-  title = "VP of Engineering / Godfather"
-  bio = """John Smith brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
+  firstname = "Su T."
+  lastname = "Nguyen"
+  title = "Software Engineer / iOS Developer"
+  bio = """Hi, my name is Su and I’m a Software Engineer with over 4 years experience. I worked with iOS most of that time.
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et lacinia metus. Aliquam venenatis, orci ornare mollis congue, mi arcu lobortis tellus, id pulvinar ex ante eu mauris.
+  Currently, I am working at home as a Freelancer.
 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+  I am eager to be challenged in order to grow and further improve my IT skills. I am always looking for opportunities to work with something new.
+
+  The things that I currently have the most experience working with are: iOS Native , ES6 Javascript, Java, SQL, Git, CD/CI and AWS services.
   """
 
+[params.contacts]
+  email = "vnntsu@gmail.com"
+  github = "vnntsu"
+  twitter = "vnntsu"
+  facebook = "vnntsu"
+  linkedin = "vnntsu"
+
+[[params.actions]]
+  name = "BLOG"
+  url = "/blog/"
+
+[[params.actions]]
+  name = "REVIEW MY CV"
+  url = "/documents/cv.pdf"
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2019 Su T. Nguyen. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
