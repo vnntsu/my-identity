@@ -11,6 +11,8 @@ frontend:
         - mv ./hugo /usr/bin/hugo
         - rm -rf hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz
         - /usr/bin/hugo/hugo
+        - ls public
+        - vi public/index.html
   artifacts:
     baseDirectory: public
     files:
