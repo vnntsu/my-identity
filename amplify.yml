@@ -10,7 +10,7 @@ frontend:
         - tar -xvf hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz -C ./hugo
         - mv ./hugo /usr/bin/hugo
         - rm -rf hugo_${VERSION_HUGO_NEW}_Linux-64bit.tar.gz
-        - /usr/bin/hugo/hugo
+        - /usr/bin/hugo/hugo server -D
   artifacts:
     baseDirectory: public
     files:
