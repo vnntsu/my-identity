@@ -6,7 +6,7 @@ title = "Su Nguyen's Identity"
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/portrait-default.png"
+  portrait = "/images/profile.png"
   firstname = "Su T."
   lastname = "Nguyen"
   title = "Software Engineer / iOS Developer"
@@ -25,10 +25,6 @@ title = "Su Nguyen's Identity"
   twitter = "vnntsu"
   facebook = "vnntsu"
   linkedin = "vnntsu"
-
-[[params.actions]]
-  name = "BLOG"
-  url = "/blog/"
 
 [[params.actions]]
   name = "REVIEW MY CV"
