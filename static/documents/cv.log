@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  31 OCT 2019 16:05
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  1 NOV 2019 17:56
 entering extended mode
  %&-line parsing enabled.
 **cv.tex
@@ -1073,9 +1073,9 @@ Overfull \hbox (42.00792pt too wide) in alignment at lines 10--48
 
 ) (./cv/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 76.
+(Font)              scaled to size 9.0pt on input line 36.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/bx/n' will be
-(Font)              scaled to size 9.0pt on input line 76.
+(Font)              scaled to size 9.0pt on input line 36.
  [1
 
 ]) [2]
