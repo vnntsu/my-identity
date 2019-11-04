@@ -216,6 +216,10 @@
 \newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
 
+% For elements of interest
+\newcommand*{\interesttypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\interestsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
+
 % For elements of the cover letter
 \newcommand*{\lettersectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\recipientaddressstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}}
@@ -658,6 +662,24 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{%
+	\skilltypestyle{#1} & \skillsetstyle{#2} \\
+}
+
+% Define an environment for cvinterests
+\newenvironment{cvinterests}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2.0mm}
+  \begin{center}
+    \setlength\tabcolsep{1ex}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+}{%
+    \end{tabular*}
+  \end{center}
+}
+% Define a line of cv information(interest)
+% Usage: \cvinterest{<type>}{<skillset>}
+\newcommand*{\cvinterest}[2]{%
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
