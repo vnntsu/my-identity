@@ -1,36 +1,21 @@
 languageCode = "en-us"
 theme = "awesome-identity"
-## baseURL = "https://sunguyen.dev"
 title = "Su Nguyen's Identity"
 
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/profile.png"
-  firstname = "Su T."
-  lastname = "Nguyen"
-  title = "Software Engineer / iOS Developer"
-  bio = """Hi, my name is Su and I’m a Software Engineer with over 4 years experience. I worked with iOS most of that time.
+  firstname = "Su"
+  lastname = "T. Nguyen"
+  title = "Senior Software Engineer"
+  bio = """Hi, my name is Su. I'm a Senior Software Engineer with experience in software development.
 
-  Currently, I am working at home as a Freelancer.
+  I'm currently working at [Nimble](https://nimblehq.co/) as a Senior Web Developer.
 
-  I am eager to be challenged in order to grow and further improve my IT skills. I am always looking for opportunities to work with something new.
-
-  The things that I currently have the most experience working with are: iOS Native , ES6 Javascript, Java, SQL, Git, CD/CI and AWS services.
+  Nice to meet you!
   """
 
 [params.contacts]
   email = "vnntsu@gmail.com"
   github = "vnntsu"
-  twitter = "vnntsu"
-  facebook = "vnntsu"
   linkedin = "vnntsu"
-
-[[params.actions]]
-  name = "REVIEW MY CV"
-  url = "/documents/cv.pdf"
-
-## Footer Configurations
-[params.footer]
-  copyright = "© 2019 Su T. Nguyen. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
-  poweredBy = true
